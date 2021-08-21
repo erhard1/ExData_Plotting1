@@ -22,7 +22,7 @@ datetime <- dmy_hms(paste(my_subset$Date, my_subset$Time, sep = " "))
 
 png(file="plot4.png",
       width=480, 
-      height=500, 
+      height=480, 
       pointsize=12)
 
 par(mfcol = c(2,2))

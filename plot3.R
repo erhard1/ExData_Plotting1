@@ -23,7 +23,7 @@ datetime <- dmy_hms(paste(my_subset$Date, my_subset$Time, sep = " "))
 
 png(file="plot3.png",
     width=480, 
-    height=500, 
+    height=480, 
     pointsize=12)
 
 with(my_subset, plot(datetime, Sub_metering_1, type = "l", 

@@ -22,7 +22,7 @@ my_subset <- filter(consumption_data, Date == "1/2/2007" | Date == "2/2/2007")
 
 png(file="plot1.png",
     width=480, 
-    height=500, 
+    height=480, 
     pointsize=12)
 
 hist(my_subset$Global_active_power, col = "red", main = "Global Active Power", 
